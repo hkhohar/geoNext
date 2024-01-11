@@ -10,9 +10,9 @@ export default function CommonTools(){
             <button className="min-w-[120px] flex-1 bg-[#39B3D7] px-4 py-2 rounded-2xl text-white">               
                <Link className="min-w-[120px] flex-1 bg-[#39B3D7] px-4 py-2 rounded-2xl text-white" href="/pngtojpg">PNG to JPG</Link></button>
                 <button className="min-w-[120px] flex-1 bg-[#39B3D7] px-4 py-2 rounded-2xl text-white">
-                PDF to JPG</button>
+                <Link className="min-w-[120px] flex-1 bg-[#39B3D7] px-4 py-2 rounded-2xl text-white" href="/">PDF to JPG</Link></button>
                 <button className="min-w-[120px] flex-1 bg-[#39B3D7] px-4 py-2 rounded-2xl text-white">
-                SVG to JPG</button>
+                <Link className="min-w-[120px] flex-1 bg-[#39B3D7] px-4 py-2 rounded-2xl text-white" href="/">SVG to JPG</Link></button>
                 {/* <button class="min-w-[120px] flex-1 bg-[#39B3D7] px-4 py-2 rounded-2xl text-white">
                 <Link to={PathConstants.JPGTOPNG}>JPG to PNG</Link></button>
                 <button class="min-w-[120px] flex-1 bg-[#39B3D7] px-4 py-2 rounded-2xl text-white">

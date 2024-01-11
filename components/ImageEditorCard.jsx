@@ -5,6 +5,7 @@ import defImg from '../Assets/images/white.png'
 import loader from '../Assets/images/load-32_128.gif'
 import helper from '../Utils/Helper'
 
+
 export default function ImageEditorCard({latLong,setLatChange,setValue,setFinalLngChange}) {
   const [selectedFile, setSelectedFile] = React.useState({fileString:defImg.src});
   const [imgMeta, setImgMeta] = React.useState([{ltlg:'',keyword:'',title:''}]);

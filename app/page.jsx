@@ -3,9 +3,7 @@
 import GoogleMap from '../Components/GMap'
 import ImageEditorCard from '../Components/ImageEditorCard'
 import MainToolCard from '../Components/MainToolCard';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import React, { useState,useEffect  } from "react";
+import React, { useState,useEffect  } from "react"
 
 export default function GeoTagPhoto() {
   const [imgMeta, setImgMeta] = React.useState([{}]);
@@ -37,8 +35,7 @@ export default function GeoTagPhoto() {
   }
 
   return (
-    <div><Header />
-    <div class="bg-gray-200 px-6 py-10 ">      
+    <div class="bg-gray-200 px-6 py-10 ">
     <form>
       <div className="flex gap-10 md:flex-row flex-col">
         <div className="flex-1 min-h-[300px]"><GoogleMap latLong={latLong} markerDraged={markerDraged} /></div>
@@ -49,9 +46,9 @@ export default function GeoTagPhoto() {
         </div>
       </div>
       <div><MainToolCard /></div>
-    </form>        
-    </div>
-    <Footer />
+    </form>
+    
+    
     </div>
   )
 }
