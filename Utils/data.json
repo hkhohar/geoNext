@@ -1,0 +1,18 @@
+{
+    "nameObj":[
+                         {
+                             "name":"John",
+                             "country":"New Zealand"
+                         },
+                         {
+                            "name":"John",
+                            "country":"New Zealand"
+                         },
+                         {
+                            "name":"John",
+                            "country":"New Zealand"
+                         }
+         ],
+    "country" :"newzeland"
+} 
+               
